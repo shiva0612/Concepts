@@ -1,8 +1,11 @@
-module docker-go
+module github.com/shiva0612/concepts
 
 go 1.19
 
-require github.com/gin-gonic/gin v1.9.1
+require (
+	github.com/gin-gonic/gin v1.9.1
+	github.com/golang-jwt/jwt v3.2.2+incompatible
+)
 
 require (
 	github.com/bytedance/sonic v1.9.1 // indirect
